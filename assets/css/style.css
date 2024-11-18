@@ -31,7 +31,7 @@ main {
 footer {
     background-color: orange;
 }
-.h1 {
+.h1 {color: yellow;
     font-family: "Lato", sans-serif;
     font-weight: 900;
     font-style: normal;
