@@ -28,6 +28,7 @@ header {
     box-shadow: 0 2px 2px #3a3a3a;
 
 }
+
 header a {
     text-decoration: none;
     color: inherit;
@@ -38,6 +39,12 @@ h1 {
     text-transform: uppercase;
     letter-spacing: 2px;
     color: #252525;
+}
+
+ header nav ul #menu {
+    font-size: 50%;
+    letter-spacing: 40px;
+    list-style-type: none;
 }
 
 /* Main content */
