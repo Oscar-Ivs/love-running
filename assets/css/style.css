@@ -41,9 +41,9 @@ h1 {
     color: #252525;
 }
 
- header nav ul #menu {
-    font-size: 50%;
-    letter-spacing: 40px;
+#menu {
+    font-size: 110%;
+    letter-spacing: 4px;
     list-style-type: none;
 }
 
