@@ -1,3 +1,4 @@
+
 /* Aterisk wildcard selector to override default styles added by the browser */
 *{
     padding: 0;
@@ -29,4 +30,9 @@ main {
 /* Footer */
 footer {
     background-color: orange;
+}
+h1 .lato-black {
+    font-family: "Lato", sans-serif;
+    font-weight: 900;
+    font-style: normal;
 }
