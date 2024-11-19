@@ -85,17 +85,19 @@ nav {
 
 /* Main content */
 main {
-    
+
     /* make main element take up any surplus */
     flex: 1 0 auto;
     margin-top: 47px;
 }
+
 /* Hero section */
 #hero {
     height: 600px;
     width: 100%;
     background: url(../images/hero-image.webp) no-repeat center center/cover;
 }
+
 /* Footer */
 #social-networks {
     text-align: center;
@@ -104,6 +106,7 @@ main {
     justify-content: space-evenly;
     list-style-type: none;
 }
+
 #social-networks i {
     font-size: 160%;
     padding: 5%;
