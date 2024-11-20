@@ -120,7 +120,7 @@ main {
     padding-left: 10px;
 }
 
-#cover-text>h2,
+#cover-text>h2
 #cover-text>h3 {
     color: #ffffff;
 }
@@ -129,7 +129,7 @@ main {
 #reasons {
     width: 90%;
     margin: 20px;
-    auto
+    auto;
 }
 
 #reasons h2 {
