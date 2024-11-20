@@ -125,7 +125,7 @@ main {
 #reasons {
     width: 90%;
     margin: 20px;
-    auto;
+    auto
 }
 
 #reasons h2 {
@@ -235,16 +235,18 @@ hr {
 
     /* Reasons section */
     #benefits-physical,
-    3#benefits-mental {
+    #benefits-mental {
         display: flex;
         flex-direction: column;
         width: 100%;
     }
-    #benefits-physical > div,
-    3#benefits-mental > div {
-       width: 75%; 
+
+    #benefits-physical>div,
+    #benefits-mental>div {
+        width: 75%;
     }
-    #benefits-mental > div {
+
+    #benefits-mental>div {
         text-align: end;
         align-self: flex-end;
     }
@@ -258,26 +260,32 @@ hr {
 
     }
 }
+
 @media screen and (min-width: 1200px) {
- /* reasons section */
- #benefits {
-    display: flex;
-    flex-direction: row;
- }
-    #benefits > div {
+
+    /* reasons section */
+    #benefits {
+        display: flex;
+        flex-direction: row;
+    }
+
+    #benefits>div {
         flex: 1;
-    }   
+    }
+
     #benefits-image {
         order: 0;
     }
+
     #benefits-mental {
         order: 1;
     }
-    #benefits-mental > div {
+
+    #benefits-mental>div {
         align-self: flex-start;
     }
-    #benefits-physical > div {
+
+    #benefits-physical>div {
         align-self: flex-end;
-    }
     }
 }
