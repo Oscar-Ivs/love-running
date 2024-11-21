@@ -181,8 +181,7 @@ main {
 /* reason section */
 #reasons {
     width: 90%;
-    margin: 20px;
-    auto;
+    margin: 20px auto;
 }
 
 #reasons h2 {
@@ -204,15 +203,14 @@ main {
 hr {
     border-top: 1px solid #3a3a3a;
     margin: 5px 0;
+}
 
-    /* Circle cover bg */
-    #circle-cover-bg {
-        height: 90vw;
-        width: 90vw;
-        background: url(../images/reasons-image.webp);
-        margin-bottom: 20px;
-
-    }
+/* Circle cover bg */
+#circle-cover-bg {
+    height: 90vw;
+    width: 90vw;
+    background: url(../images/reasons-image.webp);
+    margin-bottom: 20px;
 }
 
 /* Circle cover bg */
